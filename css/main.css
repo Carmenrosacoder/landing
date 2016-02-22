@@ -1,0 +1,59 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    padding-top:8%;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li{
+    float: left;
+    margin-left: 15%;
+    color: #808080;
+}
+.input{
+    background-color: #808080;
+    color: white;
+}
+h1{
+    font-size: 40px;
+}
+.gris{
+    padding-top: 5%;
+}
+.ingresodatos{
+    text-align: center;
+    background-color: #9A9A9A;
+    padding: 5%;
+    margin:0% 15%;
+    border-radius: 5%;
+
+}
+ .text{
+    padding-right: 30%;
+    padding-bottom: 5%;
+}
+button{
+    background-color: #3EB0F7;
+    border: none;
+    color: white;
+    padding:1% 30%;
+
+}
+.descripcion{
+    font-size: 14px;
+}
+@media only screen and(min-width:535px) and(max-width:824px) {
+    .row{
+        width: 100%;
+    }
+    .col-8 .text{
+        width: 100%;
+    }
+    .col-4{
+        width: 100%;
+
+    }
+
+}
